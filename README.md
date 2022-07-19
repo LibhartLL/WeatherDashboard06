@@ -14,14 +14,14 @@ This project is a weather dashboard app with search functionality to find curren
 ## Technologies
 This project is created with:
 
-Bootstrap 4
-CSS
-Font Awesome
-HTML:5
-JavaScript
-jQuery
-Moment.js
-Open Weather API
+* Bootstrap 4
+* CSS
+* Font Awesome
+* HTML:5
+* JavaScript
+* jQuery
+* Moment.js
+* Open Weather API
 
 ## Screenshot
 Project screenshot Link to my deployed github page: https://libhartll.github.io/WeatherDashboard06/
