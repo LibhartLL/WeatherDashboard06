@@ -1,11 +1,11 @@
 # Weather Dashboard
 
 ## Table of contents
-* General info,
-* Technologies,
-* Screenshot,
-* Credits,
-* License.
+* General info
+* Technologies
+* Screenshot
+* Credits
+* License
 
 ## General info
 This project is a weather dashboard app with search functionality to find current weather conditions and forecasted weather for multiple cities. It uses the OpenWeather API to retrieve data for the cities, it features  dynamically updated HTML and CSS powered by jQuery, and displays a search history which the user can click to access past cities searched via local storage and clear the search history.  THis app took me some time to build.  I had issues with some to the code not working in my JS file.  Most of the issues were were typos.  The first error that had me was my key did not copy properly and it had an invalid key I did have to fix my fetch file, it was throwing a 401 error and I had to do some research to figure what happened.  It turned out to be I did not have the element set correctly.  
