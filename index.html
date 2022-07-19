@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Weather Dashboard</title>
+</head>
+
+<body class="flex-column min-100-vh">
+
+    <header class="hero">
+        <h1 class="header-title">Weather Dashboard</h1>
+    </header>
+
+    <main class="row gap">
+
+        <div class="column-search">
+            <div class="card">
+                <h3 class="card-header">Search for a city:</h3>
+                <form id="user-form" class="card-body">
+                <input name="city-name" id="city-name" type="text" autofocus="true" class="form-input" placeholder="Please enter a city"/>
+                <button type="submit" class="btn-search">Search</button>
+                <hr>
+                </form>
+                <div id="city-buttons" class="card-body"></div>
+                <button onclick="clearButtons()">Clear</button>
+            </div>
+        </div>
+
+        <div class="column-weather">
+            <div id="card-weather">
+            </div>
+        </div>
+
+    </main>
+
+    <footer>&Copy 2022 Lindsay L. Libhart, UCF Coding Boot Camp July, 2022</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+<script src="./assets/script.js"></script>
+</body>
+</html> 
