@@ -1,17 +1,17 @@
-#Weather Dashboard
+# Weather Dashboard
 
-##Table of contents
+## Table of contents
 General info
 Technologies
 Screenshot
 Credits
 License
 
-##General info
+## General info
 This project is a weather dashboard app with search functionality to find current weather conditions and forecasted weather for multiple cities. It uses the OpenWeather API to retrieve data for the cities, it features  dynamically updated HTML and CSS powered by jQuery, and displays a search history which the user can click to access past cities searched via local storage and clear the search history.  THis app took me some time to build.  I had issues with some to the code not working in my JS file.  Most of the issues were were typos.  The first error that had me was my key did not copy properly and it had an invalid key I did have to fix my fetch file, it was throwing a 401 error and I had to do some research to figure what happened.  It turned out to be I did not have the element set correctly.  
 
 
-##Technologies
+## Technologies
 This project is created with:
 
 Bootstrap 4
@@ -23,11 +23,11 @@ jQuery
 Moment.js
 Open Weather API
 
-##Screenshot
+## Screenshot
 Project screenshot Link to my deployed github page: https://libhartll.github.io/WeatherDashboard06/
 ![This is an image](./assets/Images/WDScreenShot.jpg)
 
-##Credits
+## Credits
 I consulted the following resources:
 Https://openweathermap.org/api
 https://www.tutorialsteacher.com/jquery/jquery-ajax-method
@@ -42,7 +42,7 @@ https://javascript.plainenglish.io/display-7-day-weather-forecast-with-openweath
 https://javascript.tutorialink.com/openweather-api-using-javascript-fetch-with-user-input-keeps-previous-data-in-html-page/
 https://gabrieleromanato.name/javascript-how-to-use-the-open-weather-map-api
 
-###License
+### License
 
 Copyright (c) [2022] [Lindsay Libhart]
 
