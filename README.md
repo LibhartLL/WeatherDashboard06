@@ -22,8 +22,10 @@ JavaScript
 jQuery
 Moment.js
 Open Weather API
-Screenshot
-project screenshot Link to my deployed github page: https://rachelrohrbach.github.io/weather-dashboard/
+
+##Screenshot
+Project screenshot Link to my deployed github page: https://libhartll.github.io/WeatherDashboard06/
+![This is an image](./assets/Images/WDScreenShot.jpg)
 
 ##Credits
 I consulted the following resources:
